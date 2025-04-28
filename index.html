@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Dona Nilda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dona Nilda</h1>
+        <p>Cardápio Digital</p>
+    </header>
+
+    <div class="filters">
+        <button class="filter-btn active" data-category="all">Todos</button>
+        <button class="filter-btn" data-category="entradas">Entradas</button>
+        <button class="filter-btn" data-category="principais">Pratos Principais</button>
+        <button class="filter-btn" data-category="sobremesas">Sobremesas</button>
+        <button class="filter-btn" data-category="bebidas">Bebidas</button>
+    </div>
+
+    <div class="menu-container" id="menu-container">
+        <!-- Os itens do menu serão inseridos aqui pelo JavaScript -->
+    </div>
+
+    <footer>
+        <p>© <span id="year"></span> Dona Nilda marmitaria. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
