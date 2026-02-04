@@ -2,15 +2,15 @@
 const menuItems = [
     {
         id: 1,
-        name: "Bruschetta",
-        description: "Pão italiano torrado com tomate fresco, manjericão e azeite de oliva",
-        price: "R$ 18,90",
-        category: "entradas",
-        image: "imagens/brusqueta-tradicional.jpg"
+        name: "Burguer frango",
+        description: "Pão Brioche, salada, molho da casa, Buguer de frango empanado.",
+        price: "R$ 20,99",
+        category: "artesanais",
+        image: "imagens/Lanchedefrango.jpeg"
     },
     {
         id: 2,
-        name: "Filé Mignon",
+        name: "",
         description: "Filé mignon grelhado, acompanha batatas rústicas e legumes grelhados",
         price: "R$ 59,90",
         category: "principais",
@@ -18,7 +18,7 @@ const menuItems = [
     },
     {
         id: 3,
-        name: "Tiramisu",
+        name: "",
         description: "Sobremesa italiana clássica com café, mascarpone e cacau em pó",
         price: "R$ 22,90",
         category: "sobremesas",
