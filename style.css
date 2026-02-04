@@ -1,3 +1,7 @@
+@font-face{
+    font-family:"shadow";
+    src:url(fontes/shadow_of_the_deads/Sh01.ttf)
+}
 * {
     margin: 0;
     padding: 0;
@@ -12,16 +16,20 @@ body {
 }
 
 header {
-    background-color: #8B0000; /* Vermelho escuro - pode mudar para sua cor preferida */
-    color: white;
+    background-color: #0c0c0c; /* Vermelho escuro - pode mudar para sua cor preferida */
+    color: rgb(224, 204, 22);
     text-align: center;
     padding: 2rem 0;
     margin-bottom: 2rem;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    height: 6vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+    font-family:"shadow"
+    
 }
 
 .filters {
@@ -43,7 +51,7 @@ header h1 {
 }
 
 .filter-btn.active {
-    background-color: #8B0000;
+    background-color: #0e0d0d;
     color: white;
 }
 
@@ -52,7 +60,7 @@ header h1 {
 }
 
 .filter-btn.active:hover {
-    background-color: #6d0000;
+    background-color: #85861d9c;
 }
 
 .menu-container {
@@ -88,7 +96,7 @@ header h1 {
 .item-info h3 {
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: #8B0000;
+    color: #0a0a0a;
 }
 
 .item-info p {
@@ -98,7 +106,7 @@ header h1 {
 
 .item-info .price {
     font-weight: bold;
-    color: #8B0000;
+    color: #b6c216;
     font-size: 1.2rem;
 }
 

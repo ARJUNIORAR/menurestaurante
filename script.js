@@ -46,7 +46,7 @@ const menuItems = [
         description: "Risoto cremoso com cogumelos frescos e parmesão",
         price: "R$ 42,90",
         category: "principais",
-        image: "images/risoto.jpg"
+        image: "imagens/Lanchedefrango.jpeg"
     }
 ];
 
