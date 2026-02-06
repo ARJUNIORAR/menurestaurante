@@ -19,7 +19,7 @@ const menuItems = [
     {
         id: 3,
         name: "Burguer-Simples",
-        description: "Blend 120g, queijo cheddar,cebola caramelizada,bacon,alface, toamte e molho especial",
+        description: "Blend 120g, queijo cheddar,cebola caramelizada,alface, tomate e molho especial",
         price: "R$ 9,99",
         category: "artesanais",
         image: "imagens/simples01.png"
@@ -35,7 +35,7 @@ const menuItems = [
     {
         id: 5,
         name: "Burguer-frango",
-        description: "Salada com alface romana, croutons, queijo parmesão e molho Caesar",
+        description: "Pão brioche, nosso suculento blend de frango artesanal 120g  , cebola caramelizada, cream cheese, salada mostarda com mel e a nossa farofa crocante.",
         price: "R$ 28,90",
         category: "artesanais",
         image: "imagens/frangosimples.png"
