@@ -2,52 +2,157 @@
 const menuItems = [
     {
         id: 1,
-        name: "Burguer frango",
-        description: "Pão brioche, nosso suculento blend de frango artesanal 120g , cebola caramelizada, cream cheese, salada mostarda com mel e a nossa farofa crocante.",
-        price: "R$ 20,99",
+        name: "Burguer-Calabresa",
+        description: "Calabresa, blend 120g, queijo Cheddar, cebola caramelizada, alface, tomate e molho especial.",
+        price: "R$ 19,99",
         category: "artesanais",
-        image: "imagens/Gemini_Generated_Image_eharg9eharg9ehar.png"
+        image: "imagens/calabresa01.png"
     },
     {
         id: 2,
         name: "Burguer Suino com abacaxi caramelizado",
         description: "Pão brioche, nosso blend suculento suíno de 120g, abacaxi caramelizado, cebola caramelizada, alface, cream cheese e farofa crock.",
-        price: "R$ 59,90",
-        category: "principais",
-        image: "imagens/suino.png"
+        price: "R$ 24,99",
+        category: "artesanais",
+        image: "imagens/burguersimplesabacaxi.png"
     },
     {
         id: 3,
         name: "Burguer-Simples",
         description: "Blend 120g, queijo cheddar,cebola caramelizada,bacon,alface, toamte e molho especial",
-        price: "R$ 22,90",
-        category: "sobremesas",
-        image: "imagens/calabresa.png"
+        price: "R$ 9,99",
+        category: "artesanais",
+        image: "imagens/simples01.png"
     },
     {
         id: 4,
-        name: "Vinho Tinto",
-        description: "Casa Seleção Malbec 2020",
+        name: "Burguer-bacon",
+        description: "Bacon, blend 120g, queijo cheddar, cebola caramelizada, alface, tomate e molho especial.",
         price: "R$ 35,90 (taça)",
-        category: "bebidas",
-        image: "images/vinho.jpg"
+        category: "artesanais",
+        image: "imagens/bacon01.png"
     },
     {
         id: 5,
-        name: "Salada Caesar",
+        name: "Burguer-frango",
         description: "Salada com alface romana, croutons, queijo parmesão e molho Caesar",
         price: "R$ 28,90",
-        category: "entradas",
-        image: "images/salada.jpg"
+        category: "artesanais",
+        image: "imagens/frangosimples.png"
     },
     {
         id: 6,
-        name: "Risoto de Cogumelos",
-        description: "Risoto cremoso com cogumelos frescos e parmesão",
-        price: "R$ 42,90",
+        name: "Batata-frita (P)100g",
+        description: "Batata frita crocante.",
+        price: "R$ 6,99",
+        category: "batata",
+        image: "imagens/batata03.png"
+    },
+    {
+        id: 7,
+        name: "Batata-frita (M)150g",
+        description: "Batata frita crocante",
+        price: "R$ 9,99",
+        category: "batata",
+        image: "imagens/batata03.png"
+    },
+     {
+        id: 8,
+        name: "Batata-frita (G)200g",
+        description: "Batata frita crocante",
+        price: "R$ 13,99",
+        category: "batata",
+        image: "imagens/batata03.png"
+    },
+     {
+        id: 9,
+        name: "Combo-individual",
+        description: "1-Burguer-simples, batata(P), refrigerante lata.",
+        price: "R$ 21,99",
         category: "principais",
-        image: "imagens/Lanchedefrango.jpeg"
-    }
+        image: "imagens/combo02.png"
+    },
+     {
+        id: 10,
+        name: "Combo-casal",
+        description: "1-Burguer-simples, batata(M), refrigerante lata.",
+        price: "R$ 31,97",
+        category: "principais",
+        image: "imagens/combo.png"
+    },
+     {
+        id: 11,
+        name: "Combo-familia",
+        description: "4-Burguer-simples, batata(p), refrigerante lata.",
+        price: "R$ 51,93",
+        category: "principais",
+        image: "imagens/com01.png"
+    },
+    {
+        id: 12,
+        name: "Coca-cola 1-lt",
+        description: "",
+        price: "R$ 9,99",
+        category: "bebidas",
+        image: "imagens/bebidarock.jpeg"
+    },
+    {
+        id: 13,
+        name: "Guaraná 1-lt",
+        description: "",
+        price: "R$ 9,99",
+        category: "bebidas",
+        image: "imagens/bebidarock.jpeg"
+    },
+    {
+        id: 14,
+        name: "Coca-cola (Zero) 1-lt",
+        description: "",
+        price: "R$ 9,99",
+        category: "bebidas",
+        image: "imagens/bebidarock.jpeg"
+    },
+    {
+        id: 15,
+        name: "Sprite 1-lt",
+        description: "",
+        price: "R$ 9,99",
+        category: "bebidas",
+        image: "imagens/bebidarock.jpeg"
+    },
+    {
+        id: 16,
+        name: "Coca-cola, lata",
+        description: "",
+        price: "R$ 5,99",
+        category: "bebidas",
+        image: "imagens/bebidarock.jpeg"
+    },
+     {
+        id: 17,
+        name: "Coca-cola(zero), lata",
+        description: "",
+        price: "R$ 5,99",
+        category: "bebidas",
+        image: "imagens/bebidarock.jpeg"
+    },
+     {
+        id: 18,
+        name: "Cajuina, lata",
+        description: "",
+        price: "R$ 5,99",
+        category: "bebidas",
+        image: "imagens/bebidarock.jpeg"
+    },
+     {
+        id: 19,
+        name: "Guaraná, lata",
+        description: "",
+        price: "R$ 5,99",
+        category: "bebidas",
+        image: "imagens/bebidarock.jpeg"
+    },
+
 ];
 
 // Elementos do DOM
