@@ -3,26 +3,26 @@ const menuItems = [
     {
         id: 1,
         name: "Burguer frango",
-        description: "Pão Brioche, salada, molho da casa, Buguer de frango empanado.",
+        description: "Pão brioche, nosso suculento blend de frango artesanal 120g , cebola caramelizada, cream cheese, salada mostarda com mel e a nossa farofa crocante.",
         price: "R$ 20,99",
         category: "artesanais",
-        image: "imagens/Lanchedefrango.jpeg"
+        image: "imagens/Gemini_Generated_Image_eharg9eharg9ehar.png"
     },
     {
         id: 2,
-        name: "",
-        description: "Filé mignon grelhado, acompanha batatas rústicas e legumes grelhados",
+        name: "Burguer Suino com abacaxi caramelizado",
+        description: "Pão brioche, nosso blend suculento suíno de 120g, abacaxi caramelizado, cebola caramelizada, alface, cream cheese e farofa crock.",
         price: "R$ 59,90",
         category: "principais",
-        image: "images/file-mignon.jpg"
+        image: "imagens/suino.png"
     },
     {
         id: 3,
-        name: "",
-        description: "Sobremesa italiana clássica com café, mascarpone e cacau em pó",
+        name: "Burguer-Simples",
+        description: "Blend 120g, queijo cheddar,cebola caramelizada,bacon,alface, toamte e molho especial",
         price: "R$ 22,90",
         category: "sobremesas",
-        image: "images/tiramisu.jpg"
+        image: "imagens/calabresa.png"
     },
     {
         id: 4,
