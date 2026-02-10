@@ -11,7 +11,7 @@ const menuItems = [
     {
         id: 2,
         name: "Burguer Suino com abacaxi caramelizado",
-        description: "Pão brioche, nosso blend suculento suíno de 120g, abacaxi caramelizado, cebola caramelizada, alface, cream cheese e farofa crock.",
+        description: "Pão brioche, nosso blend suculento suíno de 200g, abacaxi caramelizado, cebola caramelizada, alface, cream cheese e farofa crock.",
         price: "R$ 24,99",
         category: "artesanais",
         image: "imagens/burguersimplesabacaxi.png"
@@ -20,7 +20,7 @@ const menuItems = [
         id: 3,
         name: "Burguer-Simples",
         description: "Blend 120g, queijo cheddar,cebola caramelizada,alface, tomate e molho especial",
-        price: "R$ 9,99",
+        price: "R$ 14,99",
         category: "artesanais",
         image: "imagens/simples01.png"
     },
@@ -28,37 +28,37 @@ const menuItems = [
         id: 4,
         name: "Burguer-bacon",
         description: "Bacon, blend 120g, queijo cheddar, cebola caramelizada, alface, tomate e molho especial.",
-        price: "R$ 35,90 (taça)",
+        price: "R$ 19,99",
         category: "artesanais",
         image: "imagens/bacon01.png"
     },
     {
         id: 5,
         name: "Burguer-frango",
-        description: "Pão brioche, nosso suculento blend de frango artesanal 120g  , cebola caramelizada, cream cheese, salada mostarda com mel e a nossa farofa crocante.",
-        price: "R$ 28,90",
+        description: "Pão brioche, nosso suculento blend de frango artesanal 200g  , cebola caramelizada, cream cheese, salada mostarda com mel e a nossa farofa crocante.",
+        price: "R$ 24,99",
         category: "artesanais",
         image: "imagens/frangosimples.png"
     },
     {
         id: 6,
-        name: "Batata-frita (P)100g",
+        name: "Batata-frita (P)150g",
         description: "Batata frita crocante.",
-        price: "R$ 6,99",
+        price: "R$ 7,99",
         category: "batata",
         image: "imagens/batata03.png"
     },
     {
         id: 7,
-        name: "Batata-frita (M)150g",
+        name: "Batata-frita (M)200g",
         description: "Batata frita crocante",
-        price: "R$ 9,99",
+        price: "R$ 11,99",
         category: "batata",
         image: "imagens/batata03.png"
     },
      {
         id: 8,
-        name: "Batata-frita (G)200g",
+        name: "Batata-frita (G)250g",
         description: "Batata frita crocante",
         price: "R$ 13,99",
         category: "batata",
@@ -68,15 +68,15 @@ const menuItems = [
         id: 9,
         name: "Combo-individual",
         description: "1-Burguer-simples, batata(P), refrigerante lata.",
-        price: "R$ 21,99",
+        price: "R$ 27,99",
         category: "principais",
         image: "imagens/combo02.png"
     },
      {
         id: 10,
         name: "Combo-casal",
-        description: "1-Burguer-simples, batata(M), refrigerante lata.",
-        price: "R$ 31,97",
+        description: "2-Burguer-simples, batata(M), refrigerante lata.",
+        price: "R$ 42,99",
         category: "principais",
         image: "imagens/combo.png"
     },
@@ -84,7 +84,7 @@ const menuItems = [
         id: 11,
         name: "Combo-familia",
         description: "4-Burguer-simples, batata(p), refrigerante lata.",
-        price: "R$ 51,93",
+        price: "R$ 72,89",
         category: "principais",
         image: "imagens/com01.png"
     },
@@ -124,7 +124,7 @@ const menuItems = [
         id: 16,
         name: "Coca-cola, lata",
         description: "",
-        price: "R$ 5,99",
+        price: "R$ 6,99",
         category: "bebidas",
         image: "imagens/bebidarock.jpeg"
     },
@@ -132,7 +132,7 @@ const menuItems = [
         id: 17,
         name: "Coca-cola(zero), lata",
         description: "",
-        price: "R$ 5,99",
+        price: "R$ 6,99",
         category: "bebidas",
         image: "imagens/bebidarock.jpeg"
     },
@@ -140,7 +140,7 @@ const menuItems = [
         id: 18,
         name: "Cajuina, lata",
         description: "",
-        price: "R$ 5,99",
+        price: "R$ 6,99",
         category: "bebidas",
         image: "imagens/bebidarock.jpeg"
     },
@@ -148,7 +148,7 @@ const menuItems = [
         id: 19,
         name: "Guaraná, lata",
         description: "",
-        price: "R$ 5,99",
+        price: "R$ 6,99",
         category: "bebidas",
         image: "imagens/bebidarock.jpeg"
     },
