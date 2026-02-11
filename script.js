@@ -58,7 +58,7 @@ const menuItems = [
     },
      {
         id: 8,
-        name: "Batata-frita (G)250g",
+        name: "Batata-frita (G)350g",
         description: "Batata frita crocante",
         price: "R$ 13,99",
         category: "batata",
@@ -83,7 +83,7 @@ const menuItems = [
      {
         id: 11,
         name: "Combo-familia",
-        description: "4-Burguer-simples, batata(p), refrigerante lata.",
+        description: "4-Burguer-simples, batata(G), refrigerante 1-lt.",
         price: "R$ 72,89",
         category: "principais",
         image: "imagens/com01.png"
